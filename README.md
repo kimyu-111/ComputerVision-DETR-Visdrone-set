@@ -37,7 +37,7 @@ The model was trained for 100 epochs(actually i run about 170 epochs). As shown 
 - Trend: The loss decreases steadily, indicating that the DETR model is successfully learning the features of the VisDrone dataset.
 - Validation: Although there are some fluctuations in the validation loss (typical for Transformer-based models), the overall trend follows the training loss, demonstrating good generalization without severe overfitting.
 
-![Loss Curve](./assets/loss_curve.png)
+
 
 # 2. Qualitative Results (Visualization)
 The model demonstrates robust detection performance across various scenarios, including different altitudes, lighting conditions, and object densities.
@@ -45,14 +45,13 @@ The model demonstrates robust detection performance across various scenarios, in
 # Daytime & Small Object Detection
 In high-altitude aerial shots, the model successfully detects extremely small objects such as pedestrians and distant vehicles. It accurately distinguishes between classes like `Bus` (Pink) and `Car` (Teal).
 
-![Daytime Result](./assets/result_day.jpg)
 
 ## Nighttime & Low-light Robustness
 Despite low visibility in nighttime scenes, the model effectively detects moving vehicles on the road. This proves the model's robustness against illumination changes.
 
-![Nighttime Result](./assets/result_night.jpg)
+
 
 # Dense Crowd & Occlusion Handling
 In complex intersection scenes with high object density, the model performs well in detecting crowded pedestrians and vehicles. It handles overlapping objects (occlusion) effectively, which is a key challenge in the VisDrone dataset.
 
-![Dense Scene Result](./assets/result_dense.jpg)
+
