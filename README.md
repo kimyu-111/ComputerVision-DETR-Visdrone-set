@@ -32,7 +32,7 @@ Characteristics: Different altitudes, camera angles, and lighting conditions.
 
 # Experimental Results
 
-### 1. Training Analysis (Loss Curve)
+# 1. Training Analysis (Loss Curve)
 The model was trained for 100 epochs(actually i run about 170 epochs). As shown in the graph below, both training and validation losses converged effectively.
 - Trend: The loss decreases steadily, indicating that the DETR model is successfully learning the features of the VisDrone dataset.
 - Validation: Although there are some fluctuations in the validation loss (typical for Transformer-based models), the overall trend follows the training loss, demonstrating good generalization without severe overfitting.
